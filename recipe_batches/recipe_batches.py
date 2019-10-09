@@ -15,7 +15,6 @@ def recipe_batches(recipe, ingredients):
             else:
                 ingredients[key] = ingredients[key] - recipe[key]
                 count += 1
-    # return count // length
 
 
 if __name__ == '__main__':
